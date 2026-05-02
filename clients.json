@@ -17,8 +17,8 @@
   "clients": [
     {
       "id": "001",
-      "name": "Cliente Exemplo 001",
-      "password": "senha001",
+      "name": "BRAZ",
+      "password": "001",
       "active": true,
       "expires": "2026-12-31"
     },
