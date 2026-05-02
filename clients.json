@@ -1,7 +1,7 @@
 {
   "schema": "filmom-clients-v1",
   "version": "1",
-  "description": "Base independente do addon FILMOM. Cadastre aqui os clientes reais e suas senhas de acesso.",
+  "description": "Base independente do addon FILMOM. Use os dois clientes abaixo apenas como modelo e substitua por clientes reais.",
   "instructions": {
     "clients": "Adicione objetos dentro da lista clients. O addon libera acesso quando a senha digitada coincide com password/senha/pass de um cliente ativo.",
     "active": "Use true para liberar o cliente e false para bloquear.",
@@ -14,5 +14,20 @@
       "expires": "2026-12-31"
     }
   },
-  "clients": []
+  "clients": [
+    {
+      "id": "001",
+      "name": "Cliente Exemplo 001",
+      "password": "senha001",
+      "active": true,
+      "expires": "2026-12-31"
+    },
+    {
+      "id": "002",
+      "name": "Cliente Exemplo 002",
+      "password": "senha002",
+      "active": true,
+      "expires": "2026-12-31"
+    }
+  ]
 }
