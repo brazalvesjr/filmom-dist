@@ -1,6 +1,6 @@
 {
-  "version": "1.0.3",
-  "zip_url": "https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.3.zip",
-  "sha256": "8bc9314565686a6285e3113582cf2fd7560425364f7b380dc86754e249d1ee23",
-  "notes": "FILMOM 1.0.3: corrige o acesso ao JSON em Kodi de clientes usando clientes.json público protegido, sem expor URL, usuário e senha do servidor em texto aberto."
+  "version": "1.0.7",
+  "zip_url": "https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.7.zip",
+  "sha256": "2584b886b25c13bc0df6b1ffa7da51b2370016ff1b58dd8491e0fad5118215f0",
+  "notes": "FILMOM 1.0.7: reconstruído no mesmo padrão do repositório funcional plugn-streaming-vip, usando clients.json e servers.json simples dentro do addon. Remove o fluxo anterior de senha protegida/importação e valida cliente ativo por password, carregando servidores ativos por url/user/pass."
 }

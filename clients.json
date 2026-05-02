@@ -1,0 +1,65 @@
+{
+  "version": "1",
+  "clients": [
+    {
+      "id": 1,
+      "name": "Valentin Suarez",
+      "password": "suarez001",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Mauro Dias",
+      "password": "mauro002",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Wanderlei Leao",
+      "password": "478820",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Jefferson",
+      "password": "catarino004",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "Roberto Outeiro",
+      "password": "479233",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "Gabriel",
+      "password": "sartorio006",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "Cleber",
+      "password": "cardoso007",
+      "active": true
+    },
+    {
+      "id": 8,
+      "name": "Ruan",
+      "password": "scotti008",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "Ailton",
+      "password": "pires009",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "Vazio",
+      "password": "010",
+      "active": true
+    }
+  ]
+}

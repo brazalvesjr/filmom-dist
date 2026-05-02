@@ -1,15 +1,16 @@
 # FILMOM distribuição pública
 
-Este repositório contém somente os arquivos públicos necessários para distribuição do addon FILMOM.
+Este repositório contém os arquivos públicos necessários para distribuição e atualização do addon **FILMOM** para Kodi.
 
-O arquivo `clientes.json` está em formato protegido. Ele pode ficar público porque URL, usuário e senha do servidor não aparecem em texto aberto. Para liberar um cliente, gere novamente o `clientes.json` usando o arquivo administrativo em texto claro e publique o resultado aqui.
-
-Arquivos principais:
+A versão publicada atualmente é a **1.0.7**. Esta versão foi reconstruída no mesmo padrão funcional do repositório de referência `plugn-streaming-vip-repo`, usando autenticação simples por `clients.json` e carregamento de servidores por `servers.json`, sem o fluxo anterior de senha criptografada/protegida.
 
 | Arquivo | Função |
 |---|---|
-| `clientes.json` | Lista pública protegida de clientes autorizados. |
-| `manifest.json` | Manifesto de atualização automática do addon. |
-| `plugin.video.filmom-1.0.3.zip` | ZIP instalável do addon. |
-| `plugin.video.filmom-1.0.3.zip.sha256` | Hash SHA-256 do ZIP. |
-| `icon.png` | Ícone do addon. |
+| `manifest.json` | Manifesto de atualização automática apontando para a versão mais recente. |
+| `plugin.video.filmom-1.0.7.zip` | Pacote instalável final do addon FILMOM para Kodi. |
+| `plugin.video.filmom-1.0.7.zip.sha256` | Hash SHA-256 para verificação de integridade do ZIP. |
+| `clients.json` | Lista simples de clientes autorizados, com `password` e `active`. |
+| `servers.json` | Lista simples de servidores ativos, com `url`, `user`, `pass` e `active`. |
+| `icon.png` | Ícone quadrado 512x512 corrigido para o addon. |
+
+> Para evitar conflito com dados antigos das versões 1.0.3 a 1.0.6, recomenda-se instalar a versão 1.0.7 após limpar/remover os dados antigos do addon FILMOM no Kodi.

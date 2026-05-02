@@ -1,0 +1,125 @@
+{
+  "version": "1",
+  "servers": [
+    {
+      "id": 1,
+      "name": "1",
+      "url": "http://megga10.top",
+      "user": "46037855",
+      "pass": "18682477",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "2",
+      "url": "http://shazamparceiros.com:80",
+      "user": "107551526",
+      "pass": "103179498",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "3",
+      "url": "http://conectaprime.me",
+      "user": "asd99331641",
+      "pass": "Zaptv2027",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "4",
+      "url": "http://magali.dellmxq.space",
+      "user": "nelsonalbu",
+      "pass": "Cliente1",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "5",
+      "url": "http://misterclub25.com:80",
+      "user": "Dream3678437",
+      "pass": "100200300Ab",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "6",
+      "url": "http://cdn200.vip",
+      "user": "Caio23",
+      "pass": "eT9817",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "7",
+      "url": "http://taw6zvc.cloud:80",
+      "user": "875616",
+      "pass": "sF5zw8",
+      "active": true
+    },
+    {
+      "id": 8,
+      "name": "8",
+      "url": "http://coringatvclub.com",
+      "user": "donato15",
+      "pass": "X5Py8a",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "9",
+      "url": "http://peercast.sbs:80",
+      "user": "23031167",
+      "pass": "40368769",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "10",
+      "url": "http://4s2tem.biz:80",
+      "user": "767309",
+      "pass": "8VBxSY",
+      "active": true
+    },
+    {
+      "id": 11,
+      "name": "11",
+      "url": "http://ragnatech.space",
+      "user": "649439123",
+      "pass": "879629940",
+      "active": true
+    },
+    {
+      "id": 12,
+      "name": "12",
+      "url": "http://ltclive.top:80",
+      "user": "408366636",
+      "pass": "455089135",
+      "active": true
+    },
+    {  
+      "id": 13,
+      "name": "13",
+      "url": "http://falcon12.top:80",
+      "user": "465799445",
+      "pass": "861323784",
+      "active": true
+    },
+    {
+     "id": 14,
+      "name": "14",
+      "url": "http://neia87.xyz:80",
+      "user": "927283",
+      "pass": "KjpFMK",
+      "active": true
+    },
+    {
+      "id": 15,
+      "name": "15",
+      "url": "http://megga10.top",
+      "user": "97130438",
+      "pass": "56815831",
+      "active": true
+    }
+  ]
+}
