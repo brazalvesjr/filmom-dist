@@ -1,6 +1,11 @@
 {
-  "version": "1.0.8",
-  "zip_url": "https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.8.zip",
-  "sha256": "6674b5365f21cd9ef50b76fb70b70dbd6d1cb1f651467c86181a721f5f26d36e",
-  "notes": "FILMOM 1.0.8: base própria de clientes em formato modelo/vazio. Remove exemplos herdados de outro addon e exibe mensagem clara quando não houver cliente cadastrado."
+  "name": "FILMOM",
+  "addon_id": "plugin.video.filmom",
+  "version": "1.0.9",
+  "zip": "plugin.video.filmom-1.0.9.zip",
+  "sha256": "0f570f18c9985429cb108333bb839aa62958071d5afbf70232b01b5a48aa4c04",
+  "clients": "clients.json",
+  "servers": "servers.json",
+  "notes": "Versão organizada com base própria de servidores, refresh pós-login e boas-vindas com bonequinho dançando.",
+  "updated_at": "2026-05-02"
 }
