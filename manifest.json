@@ -1,0 +1,6 @@
+{
+  "version": "1.0.3",
+  "zip_url": "https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.3.zip",
+  "sha256": "8bc9314565686a6285e3113582cf2fd7560425364f7b380dc86754e249d1ee23",
+  "notes": "FILMOM 1.0.3: corrige o acesso ao JSON em Kodi de clientes usando clientes.json público protegido, sem expor URL, usuário e senha do servidor em texto aberto."
+}
