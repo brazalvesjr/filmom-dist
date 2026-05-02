@@ -1,6 +1,6 @@
 {
-  "version": "1.0.7",
-  "zip_url": "https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.7.zip",
-  "sha256": "2584b886b25c13bc0df6b1ffa7da51b2370016ff1b58dd8491e0fad5118215f0",
-  "notes": "FILMOM 1.0.7: reconstruído no mesmo padrão do repositório funcional plugn-streaming-vip, usando clients.json e servers.json simples dentro do addon. Remove o fluxo anterior de senha protegida/importação e valida cliente ativo por password, carregando servidores ativos por url/user/pass."
+  "version": "1.0.8",
+  "zip_url": "https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.8.zip",
+  "sha256": "6674b5365f21cd9ef50b76fb70b70dbd6d1cb1f651467c86181a721f5f26d36e",
+  "notes": "FILMOM 1.0.8: base própria de clientes em formato modelo/vazio. Remove exemplos herdados de outro addon e exibe mensagem clara quando não houver cliente cadastrado."
 }

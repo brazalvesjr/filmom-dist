@@ -1,16 +1,50 @@
-# FILMOM distribuição pública
+# FILMOM Dist
 
-Este repositório contém os arquivos públicos necessários para distribuição e atualização do addon **FILMOM** para Kodi.
+Este repositório publica os arquivos de distribuição do addon **FILMOM** para Kodi. O FILMOM é um addon independente e usa uma base própria de clientes em `clients.json`, sem herdar nomes, senhas ou regras de outro addon.
 
-A versão publicada atualmente é a **1.0.7**. Esta versão foi reconstruída no mesmo padrão funcional do repositório de referência `plugn-streaming-vip-repo`, usando autenticação simples por `clients.json` e carregamento de servidores por `servers.json`, sem o fluxo anterior de senha criptografada/protegida.
+## Versão atual
 
-| Arquivo | Função |
+| Campo | Valor |
 |---|---|
-| `manifest.json` | Manifesto de atualização automática apontando para a versão mais recente. |
-| `plugin.video.filmom-1.0.7.zip` | Pacote instalável final do addon FILMOM para Kodi. |
-| `plugin.video.filmom-1.0.7.zip.sha256` | Hash SHA-256 para verificação de integridade do ZIP. |
-| `clients.json` | Lista simples de clientes autorizados, com `password` e `active`. |
-| `servers.json` | Lista simples de servidores ativos, com `url`, `user`, `pass` e `active`. |
-| `icon.png` | Ícone quadrado 512x512 corrigido para o addon. |
+| Addon | `plugin.video.filmom` |
+| Versão | `1.0.8` |
+| ZIP | `plugin.video.filmom-1.0.8.zip` |
+| Configuração de clientes | `clients.json` |
+| Configuração de servidores | `servers.json` |
 
-> Para evitar conflito com dados antigos das versões 1.0.3 a 1.0.6, recomenda-se instalar a versão 1.0.7 após limpar/remover os dados antigos do addon FILMOM no Kodi.
+## Como cadastrar clientes
+
+O arquivo `clients.json` publicado aqui está propositalmente em formato **modelo/vazio**. Isso significa que nenhum cliente real é liberado até você cadastrar senhas próprias para sua operação.
+
+Para liberar um cliente, edite `clients.json` e adicione registros dentro da lista `clients`, seguindo este formato:
+
+```json
+{
+  "schema": "filmom-clients-v1",
+  "version": "1",
+  "clients": [
+    {
+      "id": "001",
+      "name": "Cliente 001",
+      "password": "senha-do-cliente-001",
+      "active": true,
+      "expires": "2026-12-31"
+    }
+  ]
+}
+```
+
+O addon valida a senha digitada pelo campo `password`. Também aceita os aliases `senha` ou `pass` caso você prefira esses nomes. Para bloquear um cliente sem apagar o cadastro, altere `active` para `false`.
+
+## Arquivos públicos
+
+| Arquivo | URL |
+|---|---|
+| ZIP | https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.8.zip |
+| Manifesto | https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/manifest.json |
+| Clientes | https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/clients.json |
+| Servidores | https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/servers.json |
+
+## Observação operacional
+
+Com a base vazia, o Kodi exibirá aviso informando que não há clientes cadastrados no `clients.json`. Isso é esperado. Depois que você adicionar pelo menos um cliente ativo com senha, o FILMOM passará a liberar o acesso para essa senha.
