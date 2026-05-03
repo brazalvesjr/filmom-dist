@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.9",
-  "zip": "plugin.video.filmom-1.0.9.zip",
-  "sha256": "0f570f18c9985429cb108333bb839aa62958071d5afbf70232b01b5a48aa4c04",
+  "version": "1.0.10",
+  "zip": "plugin.video.filmom-1.0.10.zip",
+  "sha256": "38e5a3e7423aa7acccffeffb1e445454646ca3ce27c23e8240d9b85d9d481e02",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Versão organizada com base própria de servidores, refresh pós-login e boas-vindas com bonequinho dançando.",
+  "notes": "Correção de navegação: abre canais, filmes, séries, temporadas, episódios e busca sem erro de parâmetro duplicado.",
   "updated_at": "2026-05-02"
 }
