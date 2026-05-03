@@ -30,6 +30,14 @@
       "user": "lindalvaeua",
       "pass": "as241234G",
       "active": true
+    },
+    {
+      "id": 3,
+      "name": "nando",
+      "url": "http://nandoultra.shop",
+      "user": "48394135",
+      "pass": "35534294",
+      "active": true
     }
   ]
 }
