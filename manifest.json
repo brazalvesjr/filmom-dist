@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.15",
-  "zip": "plugin.video.filmom-1.0.15.zip",
-  "sha256": "e8789d9d76b06d229aeaf7499b1d19ba6e4ef3388811f787b122dd4051ed234c",
+  "version": "1.0.16",
+  "zip": "plugin.video.filmom-1.0.16.zip",
+  "sha256": "7aab063e43f1d6bdb07b3efe6c0e1fbb4131a73bab9a711a25b0d8dddaa9d26f",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Correção solicitada: Servidor 4 e servidores locais adicionais agora preservam a seleção ativa mesmo quando settings.xml contém valor antigo; servidores com active=false são ocultados, não selecionáveis e removidos do merge ativo. Mantém Servidor 3 local preservado, player NATIVO RÁPIDO (TS) e marca [ATIVO].",
+  "notes": "Adicionada TROCA DE PLAYER real entre NATIVO RÁPIDO (TS) e F4MTESTER 4.2.5. O NATIVO permanece padrão; quando F4MTESTER estiver selecionado, o FILMOM chama plugin.video.f4mTester com a URL do stream e faz fallback para NATIVO se o addon externo não estiver instalado. Mantém regressões de Servidor 3, Servidor 4 e active=false.",
   "updated_at": "2026-05-03"
 }
