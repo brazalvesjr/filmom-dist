@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.12",
-  "zip": "plugin.video.filmom-1.0.12.zip",
-  "sha256": "67f9fc50dd50414be3f8d0c09bd0aca0b0fa6dbefe2103303874e2cacbc50bc8",
+  "version": "1.0.13",
+  "zip": "plugin.video.filmom-1.0.13.zip",
+  "sha256": "8ecf8d938ee4a29ca6e0428c0dc0e941fa3720fa7bc9609f059f40f0e4802ac8",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Melhoria de player com seletor visível: AUTO inteligente, HLS Adaptive e Nativo TS. A tela TROCA DE PLAYER marca o player ativo com [ATIVO] e mantém fallback rápido para canais ao vivo.",
+  "notes": "Correção solicitada: TROCA DE SERVIDOR agora mostra [ATIVO] no servidor selecionado e na tela inicial. Player fixado em NATIVO RÁPIDO (TS), removendo AUTO/HLS do fluxo efetivo para evitar travamentos no Kodi.",
   "updated_at": "2026-05-03"
 }
