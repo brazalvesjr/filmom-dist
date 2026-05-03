@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.16",
-  "zip": "plugin.video.filmom-1.0.16.zip",
-  "sha256": "7aab063e43f1d6bdb07b3efe6c0e1fbb4131a73bab9a711a25b0d8dddaa9d26f",
+  "version": "1.0.17",
+  "zip": "plugin.video.filmom-1.0.17.zip",
+  "sha256": "8008ef5113208caec2800ab5870f9bcc7d341f51ca74a3ddf0eb0edcd7660082",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Adicionada TROCA DE PLAYER real entre NATIVO RÁPIDO (TS) e F4MTESTER 4.2.5. O NATIVO permanece padrão; quando F4MTESTER estiver selecionado, o FILMOM chama plugin.video.f4mTester com a URL do stream e faz fallback para NATIVO se o addon externo não estiver instalado. Mantém regressões de Servidor 3, Servidor 4 e active=false.",
+  "notes": "Corrigida a integração com F4MTESTER 4.2.5: o FILMOM agora chama action=playitem, envia URL com codificação dupla para não quebrar no parser do F4MTESTER quando há & ou =, preserva headers compatíveis e mantém fallback para NATIVO se o addon externo não estiver instalado.",
   "updated_at": "2026-05-03"
 }
