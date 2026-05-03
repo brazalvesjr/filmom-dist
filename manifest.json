@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.19",
-  "zip": "plugin.video.filmom-1.0.19.zip",
-  "sha256": "aafc77c50959e5fded2d19a7b6998a265d387425579437841aa1b239d4b7911a",
+  "version": "1.0.20",
+  "zip": "plugin.video.filmom-1.0.20.zip",
+  "sha256": "1eecdfda6b279eb7175dbd452f825a01d90b6cc9875ae695b6604948ce7d8dea",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Corrigido o fluxo F4MTESTER no Kodi 21: o FILMOM agora inicia o proxy local do F4MTESTER e resolve o item original com setResolvedUrl(True) para http://127.0.0.1:55333, sem entregar plugin://plugin.video.f4mTester como mídia. Também corrigida a estrutura do repositório Kodi publicando o ZIP em plugin.video.filmom/plugin.video.filmom-1.0.19.zip, caminho esperado pelo datadir.",
+  "notes": "Modo F4M corrigido para não depender mais da instalação externa do plugin.video.f4mTester. O FILMOM agora tenta usar o server.py do F4MTESTER quando existir, mas possui proxy F4M interno compatível em resources/lib/f4m_proxy.py. Assim, se o F4MTESTER externo estiver removido ou invisível ao Kodi, o item continua sendo resolvido para http://127.0.0.1:55333 em vez de cair para NATIVO com aviso de não instalado.",
   "updated_at": "2026-05-03"
 }
