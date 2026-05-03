@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.14",
-  "zip": "plugin.video.filmom-1.0.14.zip",
-  "sha256": "993a4084c7c0e4089055d356a92922281f8b5b3c6620f011d7ab6e6d964f1fab",
+  "version": "1.0.15",
+  "zip": "plugin.video.filmom-1.0.15.zip",
+  "sha256": "e8789d9d76b06d229aeaf7499b1d19ba6e4ef3388811f787b122dd4051ed234c",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Correção solicitada: preserva servidores locais adicionais, como o Servidor 3, durante a atualização remota de servers.json; a seleção ativa não volta para o Servidor 1 quando o servidor escolhido existe localmente. Mantém a marca [ATIVO] na lista e na tela inicial.",
+  "notes": "Correção solicitada: Servidor 4 e servidores locais adicionais agora preservam a seleção ativa mesmo quando settings.xml contém valor antigo; servidores com active=false são ocultados, não selecionáveis e removidos do merge ativo. Mantém Servidor 3 local preservado, player NATIVO RÁPIDO (TS) e marca [ATIVO].",
   "updated_at": "2026-05-03"
 }
