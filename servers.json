@@ -1,7 +1,7 @@
 {
   "schema": "filmom-servers-v1",
   "version": "1",
-  "description": "Base independente de servidores do addon FILMOM. A lista começa vazia para não herdar DNS, usuários ou senhas de outro addon.",
+  "description": "Base independente de servidores do addon FILMOM. Use os dois servidores abaixo apenas como modelo e substitua por servidores reais.",
   "instructions": {
     "servers": "Adicione servidores reais dentro da lista servers. O FILMOM exibirá apenas servidores com url, user/username, pass/password e active=true.",
     "active": "Use true para liberar o servidor e false para ocultar/bloquear.",
@@ -14,5 +14,22 @@
       "active": true
     }
   },
-  "servers": []
+  "servers": [
+    {
+      "id": 1,
+      "name": "Servidor Exemplo 001",
+      "url": "http://exemplo-servidor-1.com:80",
+      "user": "usuario001",
+      "pass": "senha001",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Servidor Exemplo 002",
+      "url": "http://exemplo-servidor-2.com:80",
+      "user": "usuario002",
+      "pass": "senha002",
+      "active": true
+    }
+  ]
 }
