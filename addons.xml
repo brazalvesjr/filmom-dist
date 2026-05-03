@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.filmom" name="FILMOM Repository" version="1.0.0" provider-name="FILMOM">
+    <extension point="xbmc.addon.repository" name="FILMOM Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_BR">Repositório oficial do FILMOM</summary>
+        <description lang="pt_BR">Instala e atualiza automaticamente o addon FILMOM pelo GitHub.</description>
+        <platform>all</platform>
+        <license>Proprietary</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.video.filmom" name="FILMOM" version="1.0.16" provider-name="FILMOM">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_BR">FILMOM: central de mídia com interface moderna, base própria de servidores e catálogo com sinopses.</summary>
+        <description lang="pt_BR">Addon FILMOM independente: valida clientes pela base própria clients.json e carrega servidores ativos por servers.json, sem herdar nomes, senhas ou regras de outro addon.</description>
+        <language>pt_BR</language>
+        <platform>all</platform>
+        <license>Proprietary</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
