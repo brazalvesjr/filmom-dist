@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.11",
-  "zip": "plugin.video.filmom-1.0.11.zip",
-  "sha256": "d798bc0c8031903861b9a93a60078e580c2906eb8947b0591574318746cdd943",
+  "version": "1.0.12",
+  "zip": "plugin.video.filmom-1.0.12.zip",
+  "sha256": "67f9fc50dd50414be3f8d0c09bd0aca0b0fa6dbefe2103303874e2cacbc50bc8",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Melhoria de player: canais ao vivo priorizam HLS/InputStream Adaptive quando disponível, com headers consistentes, abertura rápida, lookup desativado e fallback TS automático quando HLS não responde rapidamente.",
+  "notes": "Melhoria de player com seletor visível: AUTO inteligente, HLS Adaptive e Nativo TS. A tela TROCA DE PLAYER marca o player ativo com [ATIVO] e mantém fallback rápido para canais ao vivo.",
   "updated_at": "2026-05-03"
 }
