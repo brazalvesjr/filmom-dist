@@ -38,6 +38,14 @@
       "user": "48394135",
       "pass": "35534294",
       "active": true
+    },
+    {
+      "id": 4,
+      "name": "teste",
+      "url": "http://site.crepusculo.shop",
+      "user": "ritazanoti",
+      "pass": "393519011128",
+      "active": true
     }
   ]
 }
