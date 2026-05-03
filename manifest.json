@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.18",
-  "zip": "plugin.video.filmom-1.0.18.zip",
-  "sha256": "1b872096e600f92f001930a475e60708bf30d7b267dc083bf98d7c0cddcfd8e9",
+  "version": "1.0.19",
+  "zip": "plugin.video.filmom-1.0.19.zip",
+  "sha256": "aafc77c50959e5fded2d19a7b6998a265d387425579437841aa1b239d4b7911a",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Corrigida a integração com F4MTESTER 4.2.5: o FILMOM agora resolve o item com setResolvedUrl(True) apontando para plugin://plugin.video.f4mTester/?action=playitem, remove headers anexados por | antes de entregar a URL ao F4MTESTER, codifica a URL do stream uma única vez e mantém fallback automático para NATIVO quando o addon externo não estiver instalado.",
+  "notes": "Corrigido o fluxo F4MTESTER no Kodi 21: o FILMOM agora inicia o proxy local do F4MTESTER e resolve o item original com setResolvedUrl(True) para http://127.0.0.1:55333, sem entregar plugin://plugin.video.f4mTester como mídia. Também corrigida a estrutura do repositório Kodi publicando o ZIP em plugin.video.filmom/plugin.video.filmom-1.0.19.zip, caminho esperado pelo datadir.",
   "updated_at": "2026-05-03"
 }
