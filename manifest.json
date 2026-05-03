@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.10",
-  "zip": "plugin.video.filmom-1.0.10.zip",
-  "sha256": "38e5a3e7423aa7acccffeffb1e445454646ca3ce27c23e8240d9b85d9d481e02",
+  "version": "1.0.11",
+  "zip": "plugin.video.filmom-1.0.11.zip",
+  "sha256": "d798bc0c8031903861b9a93a60078e580c2906eb8947b0591574318746cdd943",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Correção de navegação: abre canais, filmes, séries, temporadas, episódios e busca sem erro de parâmetro duplicado.",
-  "updated_at": "2026-05-02"
+  "notes": "Melhoria de player: canais ao vivo priorizam HLS/InputStream Adaptive quando disponível, com headers consistentes, abertura rápida, lookup desativado e fallback TS automático quando HLS não responde rapidamente.",
+  "updated_at": "2026-05-03"
 }
