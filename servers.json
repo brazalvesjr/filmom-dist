@@ -46,6 +46,22 @@
       "user": "649439123",
       "pass": "879629940",
       "active": true
+    },
+    {
+      "id": 5,
+      "name": "teste",
+      "url": "http://minastv.shop:80",
+      "user": "regina050825",
+      "pass": "050825regina",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "teste",
+      "url": "http://xxfsxx.xyz:80",
+      "user": "422399402064",
+      "pass": "584419838695",
+      "active": true
     }
   ]
 }
