@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.20",
-  "zip": "plugin.video.filmom-1.0.20.zip",
-  "sha256": "1eecdfda6b279eb7175dbd452f825a01d90b6cc9875ae695b6604948ce7d8dea",
+  "version": "1.0.21",
+  "zip": "plugin.video.filmom-1.0.21.zip",
+  "sha256": "16957f587c0fe439a0b1647eb71c422d94959fc122555042162e82440e338497",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Modo F4M corrigido para não depender mais da instalação externa do plugin.video.f4mTester. O FILMOM agora tenta usar o server.py do F4MTESTER quando existir, mas possui proxy F4M interno compatível em resources/lib/f4m_proxy.py. Assim, se o F4MTESTER externo estiver removido ou invisível ao Kodi, o item continua sendo resolvido para http://127.0.0.1:55333 em vez de cair para NATIVO com aviso de não instalado.",
-  "updated_at": "2026-05-03"
+  "notes": "Modo F4MTESTER ajustado para seguir o padrão real do F4MTESTER 4.2.5: o FILMOM inicia o proxy F4M local e assume a reprodução com xbmc.Player().play(), encerrando a resolução original para impedir que o Kodi toque diretamente a URL TS no fluxo nativo.",
+  "updated_at": "2026-05-05"
 }
