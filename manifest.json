@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.23",
-  "zip": "plugin.video.filmom-1.0.23.zip",
-  "sha256": "647a0a3bebf9378d0055e9c7e38925da55378f9fe21029734d8d5d61516237a0",
+  "version": "1.0.24",
+  "zip": "plugin.video.filmom-1.0.24.zip",
+  "sha256": "dd91cc8096917b0ee0265cc1bccf7325160298209106d1b5654969b3b6d3d4d5",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "Modo F4MTESTER corrigido para uso real no Kodi Windows: a v1.0.23 troca o HTTPServer simples por servidor HTTP concorrente, permitindo que /check responda mesmo durante transmissão TS ativa, evita falso fallback NATIVO e ignora desconexões normais do Kodi sem traceback no log.",
-  "updated_at": "2026-05-07"
+  "notes": "v1.0.24 remove completamente a rota F4MTESTER e qualquer servidor intermediário local. A tela inicial mantém apenas troca de servidor e reprodução direta por player único nativo, priorizando fallback HLS/M3U8 quando disponível para reduzir travamentos e quedas.",
+  "updated_at": "2026-05-08"
 }
