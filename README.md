@@ -1,69 +1,51 @@
 # FILMOM Dist
 
-Este repositório contém somente os arquivos públicos necessários para distribuir e configurar o addon **FILMOM** para Kodi. A distribuição foi reorganizada para manter a versão atual do pacote, o manifesto de atualização e as bases próprias de clientes e servidores, sem arquivos herdados de outros addons.
+Este repositório contém os arquivos públicos necessários para instalar, atualizar e configurar o addon **FILMOM** no Kodi. A distribuição foi simplificada para manter somente a versão funcional atual, os índices do repositório Kodi, o instalador do repositório e as bases públicas de clientes e servidores.
 
 ## Versão atual
 
 | Campo | Valor |
 |---|---|
 | Addon | `plugin.video.filmom` |
-| Versão | `1.0.9` |
-| Pacote | `plugin.video.filmom-1.0.9.zip` |
-| Hash SHA-256 | `bada7deba526662a44c845836248c5dc363820386c6d7289e9eff1f0ee8b857f` |
-| Manifesto | `manifest.json` |
+| Versão | `1.0.24` |
+| Pacote principal | `plugin.video.filmom-1.0.24.zip` |
+| Pacote em estrutura Kodi | `plugin.video.filmom/plugin.video.filmom-1.0.24.zip` |
+| SHA-256 | `dd91cc8096917b0ee0265cc1bccf7325160298209106d1b5654969b3b6d3d4d5` |
+| Manifesto público | `manifest.json` |
+| Índice Kodi | `addons.xml` |
 
-## Arquivos publicados
+## Arquivos mantidos
 
 | Arquivo | Finalidade |
 |---|---|
-| `plugin.video.filmom-1.0.9.zip` | Pacote instalável da versão atual do addon. |
-| `plugin.video.filmom-1.0.9.zip.sha256` | Verificação de integridade do pacote atual. |
-| `manifest.json` | Informa a versão disponível, a URL do ZIP e o hash SHA-256. |
-| `clients.json` | Controla os clientes e senhas autorizados para acessar o addon. |
-| `servers.json` | Define a base própria de servidores do FILMOM. A lista começa vazia para não herdar dados de outro addon. |
+| `repository.filmom-1.0.0.zip` | Instalador do repositório FILMOM no Kodi. |
+| `addons.xml` | Índice lido pelo Kodi para detectar a versão disponível do addon. |
+| `addons.xml.md5` | Checksum do índice `addons.xml`. |
+| `manifest.json` | Manifesto público usado pelo addon para verificar versão, pacote e hash. |
+| `plugin.video.filmom-1.0.24.zip` | ZIP atual do addon, mantido na raiz para acesso direto. |
+| `plugin.video.filmom/plugin.video.filmom-1.0.24.zip` | ZIP atual também mantido na estrutura por subpasta do addon, preservando compatibilidade com repositórios Kodi. |
+| `plugin.video.filmom/icon.png` | Ícone público do addon. |
+| `plugin.video.filmom/fanart.jpg` | Fanart público do addon. |
+| `clients.json` | Base pública de clientes autorizados. |
+| `servers.json` | Base pública de servidores ativos. |
 
-## URLs públicas
+## URLs públicas principais
 
 | Recurso | URL |
 |---|---|
-| ZIP atual | https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.9.zip |
-| Hash SHA-256 | https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.9.zip.sha256 |
-| Manifesto | https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/manifest.json |
-| Clientes | https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/clients.json |
-| Servidores | https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/servers.json |
+| Instalador do repositório | `https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/repository.filmom-1.0.0.zip` |
+| ZIP atual na raiz | `https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom-1.0.24.zip` |
+| ZIP atual na estrutura Kodi | `https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/plugin.video.filmom/plugin.video.filmom-1.0.24.zip` |
+| Índice Kodi | `https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/addons.xml` |
+| Checksum do índice | `https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/addons.xml.md5` |
+| Manifesto | `https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/manifest.json` |
+| Clientes | `https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/clients.json` |
+| Servidores | `https://raw.githubusercontent.com/brazalvesjr/filmom-dist/main/servers.json` |
 
-## Clientes
+## Observações da versão 1.0.24
 
-O arquivo `clients.json` libera acesso quando a senha digitada corresponde a um cliente ativo. A base atual contém dois clientes de exemplo para teste.
+A versão **1.0.24** remove completamente a rota F4MTESTER, o proxy local e a troca de player. O addon passa a trabalhar com **player nativo único**, priorizando reprodução direta com fallback HLS/M3U8 quando disponível. Essa mudança reduz pontos de falha, evita mensagens de proxy e simplifica a manutenção.
 
-| ID | Nome | Senha | Ativo | Expira |
-|---|---|---|---|---|
-| `001` | Cliente Exemplo 001 | `senha001` | `true` | `2026-12-31` |
-| `002` | Cliente Exemplo 002 | `senha002` | `true` | `2026-12-31` |
+## Política de organização
 
-## Servidores
-
-O arquivo `servers.json` foi reiniciado como uma base independente do FILMOM. Ele permanece com `servers: []` até que servidores reais sejam cadastrados. O addon 1.0.9 também limpa servidores herdados do perfil local quando a base pública não possui servidores ativos.
-
-Para cadastrar um servidor real, use o formato abaixo dentro da lista `servers`:
-
-```json
-{
-  "schema": "filmom-servers-v1",
-  "version": "1",
-  "servers": [
-    {
-      "id": 1,
-      "name": "Servidor 1",
-      "url": "http://seu-servidor.com:80",
-      "user": "usuario-do-servidor",
-      "pass": "senha-do-servidor",
-      "active": true
-    }
-  ]
-}
-```
-
-## Observações da versão 1.0.9
-
-A versão **1.0.9** remove a herança dos quinze servidores de outro addon, limpa servidores antigos quando `servers.json` estiver vazio e força a atualização da interface após a senha ser aceita. Com isso, o usuário não deve mais precisar voltar manualmente para visualizar a tela principal do FILMOM.
+Este repositório deve permanecer enxuto. Versões antigas do addon não devem ser mantidas indefinidamente no branch principal, salvo quando houver necessidade explícita de rollback. Para a operação normal do Kodi, a referência ativa é sempre a versão declarada em `addons.xml` e `manifest.json`.

@@ -1,0 +1,17 @@
+# Arquivos temporários locais
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Caches de Python e ferramentas
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Diretórios locais de trabalho
+.cache/
+tmp/
+temp/
