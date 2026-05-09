@@ -17,7 +17,7 @@
   "servers": [
     {
       "id": 1,
-      "name": "Servidor Exemplo 001",
+      "name": "1",
       "url": "http://magali.dellmxq.space",
       "user": " nelsonalbu",
       "pass": " Cliente1",
@@ -25,7 +25,7 @@
     },
     {
       "id": 2,
-      "name": "JÓIA",
+      "name": "2",
       "url": "http://4brs.me:80",
       "user": "123456789",
       "pass": "987654321",
@@ -33,7 +33,7 @@
     },
     {
       "id": 3,
-      "name": "nando",
+      "name": "3",
       "url": "http://nandoultra.shop",
       "user": "48394135",
       "pass": "35534294",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "name": "teste",
+      "name": "4",
       "url": "http://ragnatech.space",
       "user": "649439123",
       "pass": "879629940",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "name": "teste",
+      "name": "5",
       "url": "http://minastv.shop:80",
       "user": "regina050825",
       "pass": "050825regina",
@@ -57,11 +57,20 @@
     },
     {
       "id": 6,
-      "name": "teste",
+      "name": "6",
       "url": "http://xxfsxx.xyz:80",
       "user": "422399402064",
       "pass": "584419838695",
       "active": true
+    },
+    {
+      "id": 7,
+      "name": "7",
+      "url": "http://megga10.top",
+      "user": "048824273",
+      "pass": "179123716",
+      "active": true
+      
     }
   ]
 }
