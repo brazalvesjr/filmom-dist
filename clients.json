@@ -19,7 +19,7 @@
       "id": "001",
       "name": "BRAZ JUNIOR",
       "password": "001",
-      "active": true,
+      "active": false,
       "expires": "2026-12-31"
     },
     {
