@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.24",
-  "zip": "plugin.video.filmom-1.0.24.zip",
-  "sha256": "dd91cc8096917b0ee0265cc1bccf7325160298209106d1b5654969b3b6d3d4d5",
+  "version": "1.0.25",
+  "zip": "plugin.video.filmom-1.0.25.zip",
+  "sha256": "197c8dd3f517437936894846157514a3e0715bd3fc83525bdf17d62e8d736bbc",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "v1.0.24 remove completamente a rota F4MTESTER e qualquer servidor intermediário local. A tela inicial mantém apenas troca de servidor e reprodução direta por player único nativo, priorizando fallback HLS/M3U8 quando disponível para reduzir travamentos e quedas.",
-  "updated_at": "2026-05-08"
+  "notes": "v1.0.25 otimiza a navegação preservando o player único funcional: adiciona cache local nas respostas da API Xtream, reduz chamadas remotas repetidas de clientes/servidores, limita a frequência do verificador de atualização e reduz o timeout padrão para diminuir esperas ao abrir listas e retornar de filmes.",
+  "updated_at": "2026-05-11"
 }
