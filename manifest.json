@@ -1,11 +1,11 @@
 {
   "name": "FILMOM",
   "addon_id": "plugin.video.filmom",
-  "version": "1.0.25",
-  "zip": "plugin.video.filmom-1.0.25.zip",
-  "sha256": "197c8dd3f517437936894846157514a3e0715bd3fc83525bdf17d62e8d736bbc",
+  "version": "1.0.26",
+  "zip": "plugin.video.filmom-1.0.26.zip",
+  "sha256": "85d36dd216959224d498a6c840d95b89ec0b69eb96f874a72fd72fb364d6e620",
   "clients": "clients.json",
   "servers": "servers.json",
-  "notes": "v1.0.25 otimiza a navegação preservando o player único funcional: adiciona cache local nas respostas da API Xtream, reduz chamadas remotas repetidas de clientes/servidores, limita a frequência do verificador de atualização e reduz o timeout padrão para diminuir esperas ao abrir listas e retornar de filmes.",
-  "updated_at": "2026-05-11"
+  "notes": "v1.0.26 corrige a atualização do servidor 2 e a estabilidade ao abrir listas: a troca de servidor agora força releitura do servers.json publicado, instalações já autenticadas reaplicam mudanças remotas de servidores sem reinstalação, falhas temporárias do GitHub preservam servidores locais existentes, o pacote inclui fallback local de servidores e exceções de navegação deixam de fechar/sumir a tela do Kodi sem aviso.",
+  "updated_at": "2026-05-12"
 }
