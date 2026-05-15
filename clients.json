@@ -33,7 +33,7 @@
        "id": "003",
       "name": "BRAZ FERREIRA",
       "password": "002",
-      "active": true,
+      "active": false,
       "expires": "2026-12-31"
     }
   ]
