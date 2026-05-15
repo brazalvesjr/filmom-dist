@@ -19,14 +19,14 @@
       "id": "001",
       "name": "BRAZ JUNIOR",
       "password": "001",
-      "active": false,
+      "active": true,
       "expires": "2026-12-31"
     },
     {
       "id": "002",
       "name": "Cliente Exemplo 002",
       "password": "senha002",
-      "active": true,
+      "active": false,
       "expires": "2026-12-31"
     },
     {
