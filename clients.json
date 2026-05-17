@@ -24,9 +24,9 @@
     },
     {
       "id": "002",
-      "name": "Cliente Exemplo 002",
-      "password": "senha002",
-      "active": false,
+      "name": "CLEBER",
+      "password": "cardoso007",
+      "active": true,
       "expires": "2026-12-31"
     },
     {
