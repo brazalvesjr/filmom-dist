@@ -30,10 +30,16 @@
       "expires": "2026-12-31"
     },
     {
-       "id": "003",
-      "name": "BRAZ FERREIRA",
-      "password": "002",
-      "active": false,
+      "id": "003",
+      "name": "JEFFERSON",
+      "password": "catarino004",
+      "active": true,
+      "expires": "2026-12-31"
+    },
+      "id": "004",
+      "name": "",
+      "password": "",
+      "active": true,
       "expires": "2026-12-31"
     }
   ]
