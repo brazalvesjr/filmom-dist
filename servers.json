@@ -70,6 +70,30 @@
       "user": "394200293",
       "pass": "944147609",
       "active": true
+    },
+    {
+      "id": 8,
+      "name": "8",
+      "url": "http://app.mydotz.xyz:80",
+      "user": "03352666",
+      "pass": " 44102048",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "9",
+      "url": "https://www.mediafire.com/file/0nqtniwn4dnnunb/DARK_M3U_SCANNER.HTML/file",
+      "user": " raizamt",
+      "pass": " 564888520",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "10",
+      "url": "",
+      "user": "",
+      "pass": "",
+      "active": false
       
     }
   ]
