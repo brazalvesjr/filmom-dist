@@ -33,7 +33,7 @@
       "id": "003",
       "name": "JEFFERSON",
       "password": "catarino004",
-      "active": false,
+      "active": true,
       "expires": "2026-12-31"
     },
     {
