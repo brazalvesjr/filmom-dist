@@ -18,7 +18,7 @@
     {
       "id": "001",
       "name": "BRAZ JUNIOR",
-      "password": "001",
+      "password": "teste",
       "active": true,
       "expires": "2026-12-31"
     },
@@ -54,6 +54,13 @@
       "id": "006",
       "name": "GABRIEL",
       "password": "286744",
+      "active": true,
+      "expires": "2026-12-31"
+    },
+    {
+      "id": "007",
+      "name": "",
+      "password": "",
       "active": true,
       "expires": "2026-12-31"
     }
