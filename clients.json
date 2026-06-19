@@ -26,14 +26,14 @@
       "id": "002",
       "name": "CLÉBER",
       "password": "cardoso007",
-      "active": true,
+      "active": false,
       "expires": "2026-12-31"
     },
     {
       "id": "003",
       "name": "JEFFERSON",
       "password": "catarino004",
-      "active": true,
+      "active": false,
       "expires": "2026-12-31"
     },
     {
@@ -61,7 +61,7 @@
       "id": "007",
       "name": "JONAS",
       "password": "rodrigues009",
-      "active": true,
+      "active": false,
       "expires": "2026-12-31"
     }
   ]
