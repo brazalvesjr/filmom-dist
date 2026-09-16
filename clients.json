@@ -63,6 +63,13 @@
       "password": "andrade002",
       "active": true,
       "expires": "2026-12-31"
+    },
+    {
+      "id": "008",
+      "name": "SILVIO",
+      "password": "carlos005",
+      "active": true,
+      "expires": "2026-12-31"
     }
   ]
 }
