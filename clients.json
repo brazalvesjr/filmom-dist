@@ -11,7 +11,7 @@
       "name": "Cliente 001",
       "password": "troque-esta-senha",
       "active": true,
-      "expires": "2026-12-31"
+      "expires": "2027-12-31"
     }
   },
   "clients": [
@@ -20,56 +20,56 @@
       "name": "BRAZ JUNIOR",
       "password": "teste",
       "active": true,
-      "expires": "2026-12-31"
+      "expires": "2027-12-31"
     },
     {
       "id": "002",
       "name": "CLÉBER",
       "password": "cardoso007",
       "active": true,
-      "expires": "2026-12-31"
+      "expires": "2027-12-31"
     },
     {
       "id": "003",
       "name": "JEFFERSON",
       "password": "catarino004",
       "active": true,
-      "expires": "2026-12-31"
+      "expires": "2027-12-31"
     },
     {
       "id": "004",
       "name": "WANDERLEI LEÃO",
       "password": "478820",
       "active": true,
-      "expires": "2026-12-31"
+      "expires": "2027-12-31"
     },
     {
       "id": "005",
       "name": "VALENTIM SOAREZ",
       "password": "834590",
       "active": true,
-      "expires": "2026-12-31"
+      "expires": "2027-12-31"
     },
     {
       "id": "006",
       "name": "GABRIEL",
       "password": "286744",
       "active": true,
-      "expires": "2026-12-31"
+      "expires": "2027-12-31"
     },
     {
       "id": "007",
       "name": "EDSON",
       "password": "andrade002",
       "active": true,
-      "expires": "2026-12-31"
+      "expires": "2027-12-31"
     },
     {
       "id": "008",
       "name": "SILVIO",
       "password": "carlos005",
       "active": true,
-      "expires": "2026-12-31"
+      "expires": "2027-12-31"
     }
   ]
 }
