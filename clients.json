@@ -73,9 +73,9 @@
     },
     {
       "id": "009",
-      "name": "JOSÉ FILIPI",
-      "password": "filipi10",
-      "active": true,
+      "name": "",
+      "password": "",
+      "active": false,
       "expires": "2027-12-31"
     
     }
