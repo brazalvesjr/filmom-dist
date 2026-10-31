@@ -26,7 +26,7 @@
       "id": "002",
       "name": "CLÉBER",
       "password": "cardoso007",
-      "active": true,
+      "active": false,
       "expires": "2027-12-31"
     },
     {
@@ -47,7 +47,7 @@
       "id": "005",
       "name": "VALENTIM SOAREZ",
       "password": "834590",
-      "active": true,
+      "active": false,
       "expires": "2027-12-31"
     },
     {
@@ -68,7 +68,7 @@
       "id": "008",
       "name": "SILVIO",
       "password": "carlos005",
-      "active": true,
+      "active": false,
       "expires": "2027-12-31"
     },
     {
