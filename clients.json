@@ -38,9 +38,9 @@
     },
     {
       "id": "004",
-      "name": "WANDERLEI LEÃO",
-      "password": "478820",
-      "active": false,
+      "name": "FRANCISCO MANOEL",
+      "password": "manoel004",
+      "active": true,
       "expires": "2027-12-31"
     },
     {
